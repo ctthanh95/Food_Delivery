@@ -6,7 +6,8 @@ const COLORS = {
     white: '#FFFFFF',
     lightGray: '#eff2f5',
     gray: '#BEC1D2',
-    orange: '#e5613d'
+    active: '#e5613d',
+    inactive: '#666666'
 }
 
 export default COLORS

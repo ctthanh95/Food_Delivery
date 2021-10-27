@@ -3,10 +3,10 @@ import { Dimensions } from "react-native";
 const { width, height } = Dimensions.get('window')
 
 const SIZES = {
-    base: 8,
+    padding: 20,
+    base: 10,
     font: 14,
     radius: 12,
-    padding: 24,
     largeTitle: 50,
     h1: 30,
     h2: 22,

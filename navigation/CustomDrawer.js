@@ -3,7 +3,8 @@ import { StyleSheet, View } from 'react-native'
 import { createDrawerNavigator } from '@react-navigation/drawer'
 import MainLayout from '../../Food_Delivery/screens/MainLayout'
 import COLORS from '../constants/colors'
-import DrawerContent from '../components/DrawerContent'
+import DrawerContent from '../components/drawer/DrawerContent'
+import SIZES from '../constants/sizes'
 
 const Drawer = createDrawerNavigator()
 
@@ -17,7 +18,7 @@ const CustomDrawer = () => {
                     drawerStyle: {
                         flex: 1,
                         width: '65%',
-                        paddingRight: 20,
+                        paddingRight: SIZES.padding,
                         backgroundColor: 'transparent'
                     },
                     sceneContainerStyle: {
